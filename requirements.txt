@@ -1,1 +1,1 @@
-tslearn
+tslearn==0.8.1
