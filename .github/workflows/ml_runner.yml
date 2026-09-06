@@ -4,6 +4,7 @@ on:
     #push: # when a push is made to the main branch of the repository
       #branches:
            #- master
+     workflow_dispatch: # runs on workflow dispatch  
 jobs:
   ml_run:
     runs-on: ubuntu-latest # runs the workflow on the latest ubuntu version
